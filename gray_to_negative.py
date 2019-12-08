@@ -10,7 +10,7 @@ import numpy as np
 
 path = '/home/habray/Image_Processing/Working_Folder/Image-Processing/image/'
 
-img = plt.imread(path + 'panda.jpg')
+img = plt.imread(path + 'test.jpg')
 
 def negative(image):
     row, col = image.shape
