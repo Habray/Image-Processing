@@ -22,7 +22,7 @@ def median_filter(image):
     return new_img
 
 outputs = [img, median_filter(img)]
-titles = ["Original", "Mean Filter (5*5)"]
+titles = ["Original", "Median Filter (5*5)"]
 
 for i in range(2):
     plt.subplot(1, 2, i+1)
