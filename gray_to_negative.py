@@ -8,8 +8,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-path = '/home/habray/Image_Processing/Working_Folder/Image-Processing/image/'
-
+path = '/home/habray/Image_Processing/Image-Processing/image/'
 img = plt.imread(path + 'test.jpg')
 
 def negative(image):
